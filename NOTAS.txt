@@ -1,0 +1,9 @@
+cd icard-django
+python3 -m venv envs/icard
+source ./envs/icard/bin/activate
+pip3 install django
+django-admin startproject icard
+python3 manage.py runserver
+python3 manage.py migrate
+(crear superuser despues del migrate)
+python3 manage.py createsuperuser
