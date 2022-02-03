@@ -4,3 +4,4 @@ Un # siginifica instalado en los dos pc's
 # pip3 install -U drf-yasg
 # pip3 install djangorestframework-simplejwt
 # pip3 install django-cors-headers
+python3 -m pip install Pillow
